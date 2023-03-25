@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+#card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5%;
+  border: 1px solid;
+  border-radius: 4%;
+  box-shadow: 5px 5px 12px black;
+  position: relative;
+  font-size: 170px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 120px;
+}
+
+#top-left-suit {
+  position: absolute;
+
+  top: 0;
+  left: 5px;
+}
+#bottom-right-suit {
+  position: absolute;
+
+  bottom: 0;
+  right: 5px;
+  rotate: 180deg;
+}
